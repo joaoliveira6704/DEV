@@ -8,7 +8,7 @@ pygame.init()
 # Screen dimensions
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("G1000 PFD Simulation")
+pygame.display.set_caption("Simple PFD Visualization")
 
 # Colors
 WHITE = (255, 255, 255)
@@ -32,7 +32,7 @@ throttle = 0.0  # Engine power (-1 to 1)
 heading = 0     # Aircraft heading (degrees)
 angle_of_attack = 0  # Angle of attack
 rudder = 0      # Rudder control
-wind_force = 0  # Wind effect on airspeed
+wind_force = 20  # Wind effect on airspeed
 
 # Axis mapping
 control_mapping = {
